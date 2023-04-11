@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		E6B986DD29E5607F00A2FD3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B986DC29E5607F00A2FD3B /* AppDelegate.swift */; };
 		E6B986DF29E5607F00A2FD3B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B986DE29E5607F00A2FD3B /* SceneDelegate.swift */; };
-		E6B986E129E5607F00A2FD3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B986E029E5607F00A2FD3B /* ViewController.swift */; };
+		E6B986E129E5607F00A2FD3B /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B986E029E5607F00A2FD3B /* WeatherViewController.swift */; };
 		E6B986E429E5607F00A2FD3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6B986E229E5607F00A2FD3B /* Main.storyboard */; };
 		E6B986E629E5608100A2FD3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6B986E529E5608100A2FD3B /* Assets.xcassets */; };
 		E6B986E929E5608100A2FD3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6B986E729E5608100A2FD3B /* LaunchScreen.storyboard */; };
+		E6B986F429E5684200A2FD3B /* Ezagor_weather_van_gogh_style_533ae450-2cf3-4e97-b965-b5a7b3ecd522.png in Resources */ = {isa = PBXBuildFile; fileRef = E6B986F329E5684200A2FD3B /* Ezagor_weather_van_gogh_style_533ae450-2cf3-4e97-b965-b5a7b3ecd522.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E6B986D929E5607F00A2FD3B /* aer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6B986DC29E5607F00A2FD3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6B986DE29E5607F00A2FD3B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E6B986E029E5607F00A2FD3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E6B986E029E5607F00A2FD3B /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		E6B986E329E5607F00A2FD3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E6B986E529E5608100A2FD3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6B986E829E5608100A2FD3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6B986EA29E5608100A2FD3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6B986F329E5684200A2FD3B /* Ezagor_weather_van_gogh_style_533ae450-2cf3-4e97-b965-b5a7b3ecd522.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ezagor_weather_van_gogh_style_533ae450-2cf3-4e97-b965-b5a7b3ecd522.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +60,38 @@
 			children = (
 				E6B986DC29E5607F00A2FD3B /* AppDelegate.swift */,
 				E6B986DE29E5607F00A2FD3B /* SceneDelegate.swift */,
-				E6B986E029E5607F00A2FD3B /* ViewController.swift */,
-				E6B986E229E5607F00A2FD3B /* Main.storyboard */,
+				E6B986F229E560FA00A2FD3B /* Model */,
+				E6B986F029E560A400A2FD3B /* View */,
+				E6B986F129E560DE00A2FD3B /* Controller */,
 				E6B986E529E5608100A2FD3B /* Assets.xcassets */,
 				E6B986E729E5608100A2FD3B /* LaunchScreen.storyboard */,
 				E6B986EA29E5608100A2FD3B /* Info.plist */,
+				E6B986F329E5684200A2FD3B /* Ezagor_weather_van_gogh_style_533ae450-2cf3-4e97-b965-b5a7b3ecd522.png */,
 			);
 			path = aer;
+			sourceTree = "<group>";
+		};
+		E6B986F029E560A400A2FD3B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E6B986E229E5607F00A2FD3B /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E6B986F129E560DE00A2FD3B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E6B986E029E5607F00A2FD3B /* WeatherViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E6B986F229E560FA00A2FD3B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +155,7 @@
 				E6B986E929E5608100A2FD3B /* LaunchScreen.storyboard in Resources */,
 				E6B986E629E5608100A2FD3B /* Assets.xcassets in Resources */,
 				E6B986E429E5607F00A2FD3B /* Main.storyboard in Resources */,
+				E6B986F429E5684200A2FD3B /* Ezagor_weather_van_gogh_style_533ae450-2cf3-4e97-b965-b5a7b3ecd522.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6B986E129E5607F00A2FD3B /* ViewController.swift in Sources */,
+				E6B986E129E5607F00A2FD3B /* WeatherViewController.swift in Sources */,
 				E6B986DD29E5607F00A2FD3B /* AppDelegate.swift in Sources */,
 				E6B986DF29E5607F00A2FD3B /* SceneDelegate.swift in Sources */,
 			);
@@ -293,6 +321,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -304,7 +333,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -321,6 +350,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -332,7 +362,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
