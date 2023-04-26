@@ -15,6 +15,7 @@
 		E6B986E929E5608100A2FD3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6B986E729E5608100A2FD3B /* LaunchScreen.storyboard */; };
 		E6B986F429E5684200A2FD3B /* Ezagor_weather_van_gogh_style_533ae450-2cf3-4e97-b965-b5a7b3ecd522.png in Resources */ = {isa = PBXBuildFile; fileRef = E6B986F329E5684200A2FD3B /* Ezagor_weather_van_gogh_style_533ae450-2cf3-4e97-b965-b5a7b3ecd522.png */; };
 		E6D82A7F29EEDE9F00C46460 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D82A7E29EEDE9F00C46460 /* WeatherManager.swift */; };
+		E6D82A8129F942CC00C46460 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D82A8029F942CC00C46460 /* WeatherData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E6B986EA29E5608100A2FD3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6B986F329E5684200A2FD3B /* Ezagor_weather_van_gogh_style_533ae450-2cf3-4e97-b965-b5a7b3ecd522.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ezagor_weather_van_gogh_style_533ae450-2cf3-4e97-b965-b5a7b3ecd522.png"; sourceTree = "<group>"; };
 		E6D82A7E29EEDE9F00C46460 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		E6D82A8029F942CC00C46460 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				E6D82A7E29EEDE9F00C46460 /* WeatherManager.swift */,
+				E6D82A8029F942CC00C46460 /* WeatherData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6B986E129E5607F00A2FD3B /* WeatherViewController.swift in Sources */,
+				E6D82A8129F942CC00C46460 /* WeatherData.swift in Sources */,
 				E6B986DD29E5607F00A2FD3B /* AppDelegate.swift in Sources */,
 				E6D82A7F29EEDE9F00C46460 /* WeatherManager.swift in Sources */,
 				E6B986DF29E5607F00A2FD3B /* SceneDelegate.swift in Sources */,
